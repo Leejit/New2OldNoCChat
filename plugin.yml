@@ -1,0 +1,14 @@
+name: FactionsPro
+author: PureCraftPE 
+description: A Plugin For Easily Managing Factions and Faction Power.
+version: 1.3.2
+main: FactionsPro\FactionMain
+api: [1.12.0]
+commands:
+  c:
+    description: use /c help for all parameters
+    permission: c.command
+permissions:
+  c.command:
+    default: true
+    description: "Allow use of all clan commands"
